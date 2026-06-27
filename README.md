@@ -9,7 +9,15 @@ signals.
 
 ## Latest Report
 
-No daily report has been generated in this repository yet.
+- [2026-06-27 Markdown report](reports/2026/2026-06-27-lazyinvest-daily-report.md)
+- [2026-06-27 LaTeX source](tex/2026/2026-06-27-lazyinvest-daily-report.tex)
+- [2026-06-27 PDF report](pdf/2026/2026-06-27-lazyinvest-daily-report.pdf)
+
+## Report Index
+
+| Date | Markdown | LaTeX | PDF | Public Data |
+|---|---|---|---|---|
+| 2026-06-27 | [Report](reports/2026/2026-06-27-lazyinvest-daily-report.md) | [TeX](tex/2026/2026-06-27-lazyinvest-daily-report.tex) | [PDF](pdf/2026/2026-06-27-lazyinvest-daily-report.pdf) | [Input bundle](data/2026/2026-06-27-market-inputs.json) |
 
 ## Archive Layout
 
@@ -23,7 +31,7 @@ No daily report has been generated in this repository yet.
 ## Research Standard
 
 Each report is expected to stand alone for its date. The daily automation first
-collects public inputs from sources such as FRED, Stooq, and SEC EDGAR, then asks
+collects public inputs from sources such as FRED, Yahoo Finance chart data, and SEC EDGAR, then asks
 Codex `gpt-5.5 / xhigh` to inspect current primary and reputable sources before
 writing the Markdown, TeX, and PDF outputs.
 

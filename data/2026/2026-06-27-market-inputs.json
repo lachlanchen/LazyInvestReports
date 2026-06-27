@@ -1,0 +1,1021 @@
+{
+  "collected_at_utc": "2026-06-27T04:07:32+00:00",
+  "disclaimer": "Research watchlist support data only; not personal financial advice.",
+  "errors": [],
+  "inputs": {
+    "source_policy": "Use primary and reputable public data; refresh before investment decisions.",
+    "stock_table": "/home/lachlan/ProjectsLFS/Investment/US_Stock_Research_Table_2026-06-13.md"
+  },
+  "macro_fred": {
+    "CPIAUCSL": {
+      "description": "Consumer Price Index for All Urban Consumers",
+      "observations": [
+        {
+          "date": "2025-12-01",
+          "value": "326.031"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "326.588"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "327.460"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "330.293"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "332.407"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "333.979"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL"
+    },
+    "DFF": {
+      "description": "Effective federal funds rate",
+      "observations": [
+        {
+          "date": "2026-06-20",
+          "value": "3.63"
+        },
+        {
+          "date": "2026-06-21",
+          "value": "3.63"
+        },
+        {
+          "date": "2026-06-22",
+          "value": "3.63"
+        },
+        {
+          "date": "2026-06-23",
+          "value": "3.63"
+        },
+        {
+          "date": "2026-06-24",
+          "value": "3.63"
+        },
+        {
+          "date": "2026-06-25",
+          "value": "3.63"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/DFF"
+    },
+    "DGS10": {
+      "description": "10-year Treasury constant maturity rate",
+      "observations": [
+        {
+          "date": "2026-06-17",
+          "value": "4.49"
+        },
+        {
+          "date": "2026-06-18",
+          "value": "4.46"
+        },
+        {
+          "date": "2026-06-22",
+          "value": "4.51"
+        },
+        {
+          "date": "2026-06-23",
+          "value": "4.50"
+        },
+        {
+          "date": "2026-06-24",
+          "value": "4.41"
+        },
+        {
+          "date": "2026-06-25",
+          "value": "4.40"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    "DGS2": {
+      "description": "2-year Treasury constant maturity rate",
+      "observations": [
+        {
+          "date": "2026-06-17",
+          "value": "4.20"
+        },
+        {
+          "date": "2026-06-18",
+          "value": "4.19"
+        },
+        {
+          "date": "2026-06-22",
+          "value": "4.24"
+        },
+        {
+          "date": "2026-06-23",
+          "value": "4.16"
+        },
+        {
+          "date": "2026-06-24",
+          "value": "4.11"
+        },
+        {
+          "date": "2026-06-25",
+          "value": "4.09"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/DGS2"
+    },
+    "INDPRO": {
+      "description": "Industrial production index",
+      "observations": [
+        {
+          "date": "2025-12-01",
+          "value": "101.4941"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "101.1235"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "101.9493"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "101.6273"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "102.5090"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "102.6475"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/INDPRO"
+    },
+    "PAYEMS": {
+      "description": "All employees, total nonfarm",
+      "observations": [
+        {
+          "date": "2025-12-01",
+          "value": "158432"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "158592"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "158436"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "158650"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "158829"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "159001"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/PAYEMS"
+    },
+    "SOFR": {
+      "description": "Secured overnight financing rate",
+      "observations": [
+        {
+          "date": "2026-06-17",
+          "value": "3.63"
+        },
+        {
+          "date": "2026-06-18",
+          "value": "3.62"
+        },
+        {
+          "date": "2026-06-22",
+          "value": "3.61"
+        },
+        {
+          "date": "2026-06-23",
+          "value": "3.62"
+        },
+        {
+          "date": "2026-06-24",
+          "value": "3.62"
+        },
+        {
+          "date": "2026-06-25",
+          "value": "3.64"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/SOFR"
+    },
+    "T10Y2Y": {
+      "description": "10-year minus 2-year Treasury spread",
+      "observations": [
+        {
+          "date": "2026-06-18",
+          "value": "0.27"
+        },
+        {
+          "date": "2026-06-22",
+          "value": "0.27"
+        },
+        {
+          "date": "2026-06-23",
+          "value": "0.34"
+        },
+        {
+          "date": "2026-06-24",
+          "value": "0.30"
+        },
+        {
+          "date": "2026-06-25",
+          "value": "0.31"
+        },
+        {
+          "date": "2026-06-26",
+          "value": "0.31"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/T10Y2Y"
+    },
+    "UMCSENT": {
+      "description": "University of Michigan consumer sentiment",
+      "observations": [
+        {
+          "date": "2025-12-01",
+          "value": "52.9"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "56.4"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "56.6"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "53.3"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "49.8"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "44.8"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/UMCSENT"
+    },
+    "UNRATE": {
+      "description": "Unemployment rate",
+      "observations": [
+        {
+          "date": "2025-12-01",
+          "value": "4.4"
+        },
+        {
+          "date": "2026-01-01",
+          "value": "4.3"
+        },
+        {
+          "date": "2026-02-01",
+          "value": "4.4"
+        },
+        {
+          "date": "2026-03-01",
+          "value": "4.3"
+        },
+        {
+          "date": "2026-04-01",
+          "value": "4.3"
+        },
+        {
+          "date": "2026-05-01",
+          "value": "4.3"
+        }
+      ],
+      "source_url": "https://fred.stlouisfed.org/series/UNRATE"
+    }
+  },
+  "maintained_tickers": [
+    "ALKT",
+    "TARS",
+    "GENI",
+    "YOU",
+    "VCEL",
+    "CECO",
+    "WLDN",
+    "BELFB"
+  ],
+  "market_quotes": [
+    {
+      "close": 728.989990234375,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "S&P 500 ETF proxy",
+      "exchange": "PCX",
+      "high": 736.530029296875,
+      "low": 716.5800170898438,
+      "open": 728.9500122070312,
+      "previous_close": 750.33,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=7d&interval=1d",
+      "symbol": "SPY",
+      "volume": 70932800
+    },
+    {
+      "close": 706.52001953125,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Nasdaq-100 ETF proxy",
+      "exchange": "NGM",
+      "high": 715.5599975585938,
+      "low": 702.8099975585938,
+      "open": 707.1300048828125,
+      "previous_close": 729.86,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504001,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=7d&interval=1d",
+      "symbol": "QQQ",
+      "volume": 46937400
+    },
+    {
+      "close": 299.8299865722656,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Russell 2000 ETF proxy",
+      "exchange": "PCX",
+      "high": 300.0299987792969,
+      "low": 295.7300109863281,
+      "open": 296.6000061035156,
+      "previous_close": 292.08,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?range=7d&interval=1d",
+      "symbol": "IWM",
+      "volume": 39794200
+    },
+    {
+      "close": 517.75,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Dow Jones ETF proxy",
+      "exchange": "PCX",
+      "high": 521.280029296875,
+      "low": 516.0999755859375,
+      "open": 517.0,
+      "previous_close": 521.44,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/DIA?range=7d&interval=1d",
+      "symbol": "DIA",
+      "volume": 3819800
+    },
+    {
+      "close": 181.11000061035156,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Technology sector ETF",
+      "exchange": "PCX",
+      "high": 183.11000061035156,
+      "low": 179.75999450683594,
+      "open": 181.0,
+      "previous_close": 186.44,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLK?range=7d&interval=1d",
+      "symbol": "XLK",
+      "volume": 13425800
+    },
+    {
+      "close": 53.56999969482422,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Financials sector ETF",
+      "exchange": "PCX",
+      "high": 53.939998626708984,
+      "low": 53.20000076293945,
+      "open": 53.560001373291016,
+      "previous_close": 54.35,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLF?range=7d&interval=1d",
+      "symbol": "XLF",
+      "volume": 26635300
+    },
+    {
+      "close": 181.1999969482422,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Industrials sector ETF",
+      "exchange": "PCX",
+      "high": 183.07000732421875,
+      "low": 180.91000366210938,
+      "open": 182.63999938964844,
+      "previous_close": 179.85,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLI?range=7d&interval=1d",
+      "symbol": "XLI",
+      "volume": 8855200
+    },
+    {
+      "close": 53.84000015258789,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Energy sector ETF",
+      "exchange": "PCX",
+      "high": 54.150001525878906,
+      "low": 53.68000030517578,
+      "open": 54.0,
+      "previous_close": 55.36,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLE?range=7d&interval=1d",
+      "symbol": "XLE",
+      "volume": 18981000
+    },
+    {
+      "close": 160.33999633789062,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Health care sector ETF",
+      "exchange": "PCX",
+      "high": 160.63999938964844,
+      "low": 156.17999267578125,
+      "open": 156.32000732421875,
+      "previous_close": 152.94,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLV?range=7d&interval=1d",
+      "symbol": "XLV",
+      "volume": 16556900
+    },
+    {
+      "close": 114.37000274658203,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Consumer discretionary sector ETF",
+      "exchange": "PCX",
+      "high": 115.45999908447266,
+      "low": 113.16000366210938,
+      "open": 113.19999694824219,
+      "previous_close": 118.46,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLY?range=7d&interval=1d",
+      "symbol": "XLY",
+      "volume": 8948900
+    },
+    {
+      "close": 84.70999908447266,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Consumer staples sector ETF",
+      "exchange": "PCX",
+      "high": 85.22000122070312,
+      "low": 84.44999694824219,
+      "open": 84.6500015258789,
+      "previous_close": 85.59,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLP?range=7d&interval=1d",
+      "symbol": "XLP",
+      "volume": 11368500
+    },
+    {
+      "close": 46.20000076293945,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Utilities sector ETF",
+      "exchange": "PCX",
+      "high": 46.22999954223633,
+      "low": 45.88999938964844,
+      "open": 46.0,
+      "previous_close": 45.06,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLU?range=7d&interval=1d",
+      "symbol": "XLU",
+      "volume": 19473300
+    },
+    {
+      "close": 106.18000030517578,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Communication services sector ETF",
+      "exchange": "PCX",
+      "high": 107.25,
+      "low": 105.36000061035156,
+      "open": 105.66000366210938,
+      "previous_close": 112.32,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLC?range=7d&interval=1d",
+      "symbol": "XLC",
+      "volume": 9352100
+    },
+    {
+      "close": 45.2400016784668,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Real estate sector ETF",
+      "exchange": "PCX",
+      "high": 45.290000915527344,
+      "low": 44.779998779296875,
+      "open": 44.88999938964844,
+      "previous_close": 45.1,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLRE?range=7d&interval=1d",
+      "symbol": "XLRE",
+      "volume": 5421600
+    },
+    {
+      "close": 51.599998474121094,
+      "currency": "USD",
+      "date": "2026-06-26",
+      "description": "Materials sector ETF",
+      "exchange": "PCX",
+      "high": 51.88999938964844,
+      "low": 51.380001068115234,
+      "open": 51.56999969482422,
+      "previous_close": 52.72,
+      "provider": "Yahoo Finance chart endpoint",
+      "regular_market_time": 1782504000,
+      "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XLB?range=7d&interval=1d",
+      "symbol": "XLB",
+      "volume": 9233700
+    }
+  ],
+  "research_date": "2026-06-27",
+  "sec_recent_filings": {
+    "ALKT": {
+      "cik": "0001529274",
+      "company_name": "ALKAMI TECHNOLOGY, INC.",
+      "recent_filings": [
+        {
+          "accession_number": "0001333570-26-000010",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000133357026000010/xslF345X06/wk-form4_1781124590.xml",
+          "filing_date": "2026-06-10",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001852925-26-000006",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000185292526000006/xslF345X06/wk-form4_1780528744.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001333570-26-000008",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000133357026000008/xslF345X06/wk-form4_1780528698.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001623950-26-000006",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000162395026000006/xslF345X06/wk-form4_1780528657.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        },
+        {
+          "accession_number": "0002030458-26-000006",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000203045826000006/xslF345X06/wk-form4_1780528566.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001405459-26-000009",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000140545926000009/xslF345X06/wk-form4_1779404325.xml",
+          "filing_date": "2026-05-21",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001187383-26-000008",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000118738326000008/xslF345X06/wk-form4_1779404279.xml",
+          "filing_date": "2026-05-21",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001958010-26-000008",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1529274/000195801026000008/xslF345X06/wk-form4_1779404252.xml",
+          "filing_date": "2026-05-21",
+          "form": "4"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0001529274.json",
+      "ticker": "ALKT"
+    },
+    "BELFB": {
+      "cik": "0000729580",
+      "company_name": "BEL FUSE INC /NJ",
+      "recent_filings": [
+        {
+          "accession_number": "0001437749-26-019345",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926019345/xslF345X06/rdgdoc.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001437749-26-019047",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926019047/belfa20260518_sd.htm",
+          "filing_date": "2026-06-01",
+          "form": "SD"
+        },
+        {
+          "accession_number": "0001437749-26-019046",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926019046/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-01",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001437749-26-018719",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000143774926018719/belfa20260526_8k.htm",
+          "filing_date": "2026-05-28",
+          "form": "8-K"
+        },
+        {
+          "accession_number": "0001274173-26-000132",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000127417326000132/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "filing_date": "2026-05-15",
+          "form": "SCHEDULE 13G/A"
+        },
+        {
+          "accession_number": "0001897612-26-000478",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000189761226000478/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "filing_date": "2026-05-15",
+          "form": "SCHEDULE 13G"
+        },
+        {
+          "accession_number": "0000919574-26-003199",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000091957426003199/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "filing_date": "2026-05-15",
+          "form": "SCHEDULE 13G"
+        },
+        {
+          "accession_number": "0000312069-26-000173",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/729580/000031206926000173/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "filing_date": "2026-05-14",
+          "form": "SCHEDULE 13G"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0000729580.json",
+      "ticker": "BELFB"
+    },
+    "CECO": {
+      "cik": "0000003197",
+      "company_name": "CECO ENVIRONMENTAL CORP",
+      "recent_filings": [
+        {
+          "accession_number": "0001193125-26-285709",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000119312526285709/xslF345X06/ownership.xml",
+          "filing_date": "2026-06-26",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001193125-26-285695",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000119312526285695/xslF345X06/ownership.xml",
+          "filing_date": "2026-06-26",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001959173-26-004852",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000195917326004852/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-24",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001193125-26-265774",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000119312526265774/xslF345X06/ownership.xml",
+          "filing_date": "2026-06-10",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001193125-26-263664",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000119312526263664/ceco-20260609.htm",
+          "filing_date": "2026-06-09",
+          "form": "8-K"
+        },
+        {
+          "accession_number": "0001193125-26-256034",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000119312526256034/xslF345X06/ownership.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001193125-26-256033",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000119312526256033/xslF345X06/ownership.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001193125-26-256004",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/3197/000119312526256004/xslF345X06/ownership.xml",
+          "filing_date": "2026-06-03",
+          "form": "4"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0000003197.json",
+      "ticker": "CECO"
+    },
+    "GENI": {
+      "cik": "0001834489",
+      "company_name": "Genius Sports Ltd",
+      "recent_filings": [
+        {
+          "accession_number": "0000905148-26-002616",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000090514826002616/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "filing_date": "2026-05-21",
+          "form": "SCHEDULE 13G"
+        },
+        {
+          "accession_number": "0000902219-26-000193",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000090221926000193/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "filing_date": "2026-05-15",
+          "form": "SCHEDULE 13G/A"
+        },
+        {
+          "accession_number": "0001193125-26-210270",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000119312526210270/geni_6-k_q1_26.htm",
+          "filing_date": "2026-05-07",
+          "form": "6-K"
+        },
+        {
+          "accession_number": "0001193125-26-199000",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000119312526199000/d262500d6k.htm",
+          "filing_date": "2026-05-01",
+          "form": "6-K"
+        },
+        {
+          "accession_number": "0001193125-26-122262",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000119312526122262/xslF345X06/ownership.xml",
+          "filing_date": "2026-03-24",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001193125-26-122242",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000119312526122242/xslF345X06/ownership.xml",
+          "filing_date": "2026-03-24",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001193125-26-122233",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000119312526122233/xslF345X06/ownership.xml",
+          "filing_date": "2026-03-24",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001193125-26-114445",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1834489/000119312526114445/xslF345X06/ownership.xml",
+          "filing_date": "2026-03-18",
+          "form": "3"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0001834489.json",
+      "ticker": "GENI"
+    },
+    "TARS": {
+      "cik": "0001819790",
+      "company_name": "Tarsus Pharmaceuticals, Inc.",
+      "recent_filings": [
+        {
+          "accession_number": "0001827672-26-000009",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000182767226000009/xslF345X06/wk-form4_1782158996.xml",
+          "filing_date": "2026-06-22",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001405253-26-000013",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000140525326000013/xslF345X06/wk-form4_1781727451.xml",
+          "filing_date": "2026-06-17",
+          "form": "4"
+        },
+        {
+          "accession_number": "0002044770-26-000006",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000204477026000006/xslF345X06/wk-form4_1781727435.xml",
+          "filing_date": "2026-06-17",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001228684-26-000006",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000122868426000006/xslF345X06/wk-form4_1781727420.xml",
+          "filing_date": "2026-06-17",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001628280-26-043807",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000162828026043807/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-17",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001959173-26-004721",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000195917326004721/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-16",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001662426-26-000004",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000166242626000004/xslF345X06/wk-form4_1781640402.xml",
+          "filing_date": "2026-06-16",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001228684-26-000004",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1819790/000122868426000004/xslF345X06/wk-form4_1781640385.xml",
+          "filing_date": "2026-06-16",
+          "form": "4"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0001819790.json",
+      "ticker": "TARS"
+    },
+    "VCEL": {
+      "cik": "0000887359",
+      "company_name": "Vericel Corp",
+      "recent_filings": [
+        {
+          "accession_number": "0001959173-26-004925",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000195917326004925/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-26",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001959173-26-004924",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000195917326004924/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-26",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001959173-26-004922",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000195917326004922/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-26",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001959173-26-004921",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000195917326004921/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-26",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001140361-26-025952",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000114036126025952/xslF345X06/form4.xml",
+          "filing_date": "2026-06-22",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001140361-26-025951",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000114036126025951/xslF345X06/form4.xml",
+          "filing_date": "2026-06-22",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001959173-26-004780",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000195917326004780/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-18",
+          "form": "144"
+        },
+        {
+          "accession_number": "0001959173-26-004778",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/887359/000195917326004778/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-18",
+          "form": "144"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0000887359.json",
+      "ticker": "VCEL"
+    },
+    "WLDN": {
+      "cik": "0001370450",
+      "company_name": "Willdan Group, Inc.",
+      "recent_filings": [
+        {
+          "accession_number": "0001104659-26-078320",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000110465926078320/wldn-20260626xs8.htm",
+          "filing_date": "2026-06-26",
+          "form": "S-8"
+        },
+        {
+          "accession_number": "0001640436-26-000002",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000164043626000002/xslF345X06/form4-06182026_090627.xml",
+          "filing_date": "2026-06-18",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001518288-26-000002",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000151828826000002/xslF345X06/form4-06182026_090602.xml",
+          "filing_date": "2026-06-18",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001895686-26-000002",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000189568626000002/xslF345X06/form4-06182026_090623.xml",
+          "filing_date": "2026-06-18",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001701806-26-000003",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000170180626000003/xslF345X06/form4-06182026_090606.xml",
+          "filing_date": "2026-06-18",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001640413-26-000004",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000164041326000004/xslF345X06/form4-06182026_090640.xml",
+          "filing_date": "2026-06-18",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001395188-26-000004",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000139518826000004/xslF345X06/form4-06182026_090658.xml",
+          "filing_date": "2026-06-18",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001104659-26-075795",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1370450/000110465926075795/wldn-20260617x8k.htm",
+          "filing_date": "2026-06-18",
+          "form": "8-K"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0001370450.json",
+      "ticker": "WLDN"
+    },
+    "YOU": {
+      "cik": "0001856314",
+      "company_name": "Clear Secure, Inc.",
+      "recent_filings": [
+        {
+          "accession_number": "0001869246-26-000007",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000186924626000007/xslF345X06/wk-form4_1782519907.xml",
+          "filing_date": "2026-06-26",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001466453-26-000011",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000146645326000011/xslF345X06/wk-form4_1782520033.xml",
+          "filing_date": "2026-06-26",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001466453-26-000008",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000146645326000008/xslF345X06/wk-form4_1782434623.xml",
+          "filing_date": "2026-06-25",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001856314-26-000024",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000185631426000024/xslF345X06/wk-form4_1782434556.xml",
+          "filing_date": "2026-06-25",
+          "form": "4"
+        },
+        {
+          "accession_number": "0000950142-26-001859",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000095014226001859/eh260797127_8k.htm",
+          "filing_date": "2026-06-23",
+          "form": "8-K"
+        },
+        {
+          "accession_number": "0001466453-26-000004",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000146645326000004/xslF345X06/wk-form4_1781730479.xml",
+          "filing_date": "2026-06-17",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001869246-26-000004",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000186924626000004/xslF345X06/wk-form4_1781730411.xml",
+          "filing_date": "2026-06-17",
+          "form": "4"
+        },
+        {
+          "accession_number": "0001968582-26-000621",
+          "document_url": "https://www.sec.gov/Archives/edgar/data/1856314/000196858226000621/xsl144X01/primary_doc.xml",
+          "filing_date": "2026-06-16",
+          "form": "144"
+        }
+      ],
+      "source_url": "https://data.sec.gov/submissions/CIK0001856314.json",
+      "ticker": "YOU"
+    }
+  },
+  "source_links": {
+    "fred": "https://fred.stlouisfed.org/",
+    "sec_atom_feed": "https://www.sec.gov/cgi-bin/browse-edgar",
+    "sec_company_tickers": "https://www.sec.gov/files/company_tickers.json",
+    "sec_submissions_api": "https://data.sec.gov/submissions/",
+    "yahoo_chart_api": "https://query1.finance.yahoo.com/v8/finance/chart/"
+  }
+}
