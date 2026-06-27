@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: LazyInvestReports
+message: "If these public research reports are useful, cite the repository."
+type: dataset
+authors:
+  - family-names: Chen
+    given-names: Lachlan
+repository-code: "https://github.com/lachlanchen/LazyInvestReports"
+url: "https://github.com/lachlanchen/LazyInvestReports"
+license: MIT
